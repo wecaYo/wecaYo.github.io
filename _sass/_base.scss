@@ -10,7 +10,8 @@ body {
   font-size: 15px; // 18
   color: $body-color;
   line-height: 1.5rem; // 1.75
-  
+  margin:10px auto;
+  width:20%;
   // background-color: grey;
 }
 
@@ -18,9 +19,13 @@ body {
   body {
     font-size: 15px;
     line-height: 1.5rem;
+    margin:10px auto;
+    width:20%;
   }
   body h1 {
     font-size: 1.5rem;
+    margin:10px auto;
+    width:20%;
   }
 }
 
