@@ -1,0 +1,16 @@
+_site/*
+draft/*
+
+_theme_packages/*
+.sass-cache/*
+.jekyll-cache/
+
+Gemfile.lock
+package.json
+.DS_Store
+Thumbs.db
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
