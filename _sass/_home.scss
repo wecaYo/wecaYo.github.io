@@ -2,69 +2,82 @@
   Posts
 */
 
-.posts-container {
-  margin-bottom: 4rem; // 5
-  padding: 0px;
-  list-style: none;
+div {
+    font-family: "Alata";
 }
+
+.posts-container {
+    // margin-bottom: 4rem; // 5
+    // padding: 0px;
+    // list-style: none;
+    max-width: 750px;
+}
+
+.row {
+    padding: 5px 5px;
+    margin-top: 1rem;
+}
+
 
 /*
   Thumbnail
 */
 
 .thumbnail-container {
-  max-width: 100%;
-  overflow: auto; // hidden
-  border-radius: 5px;
-  margin-bottom: 25px;
+    // max-width: 100%;
+    // overflow: auto; // hidden
+    // border-radius: 5px;
+    // margin-bottom: 25px;\
+    width: 460px;
+    height: 280px;
+    padding: 2px 2px;
+    border: 10.1px solid rgba(233, 3, 3, 0.5);
 }
 
-.thumbnail-container img{
-  // width: 600px;
-  // height: 300px;
-  // object-fit: cover;
-  // object-position: -20% 0;
-  
-  display: block;
-  
-  // margin-top: -11.5%;
-  // margin-bottom: -11.5%;
-  // margin-top: -5.5%;
-  // margin-bottom: -5.5%;
-
-  // modified to centralize gif
-  margin: auto;
-  // margin-left: auto;
-  // margin-right: auto;
+.thumbnail-container img {
+    // width: 600px;
+    // height: 300px;
+    // object-fit: cover;
+    // object-position: -20% 0;
+    display: block;
+    // margin-top: -11.5%;
+    // margin-bottom: -11.5%;
+    // margin-top: -5.5%;
+    // margin-bottom: -5.5%;
+    // modified to centralize gif
+    margin: auto;
+    // margin-left: auto;
+    // margin-right: auto;
 }
+
 
 /*
   Pagination
 */
 
 .pagination {
-  overflow: hidden;
-  font-family: $sans-serif-font-family;
-  text-align: center;
+    overflow: hidden;
+    font-family: $sans-serif-font-family;
+    text-align: center;
 }
 
 .pagination a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .pagination-button {
-  color: $light-gray-color;
-  border: 1px solid $pagination-button-color;
-  padding: 15px 45px;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: bold;
+    color: $light-gray-color;
+    border: 1px solid $pagination-button-color;
+    padding: 15px 45px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .pagination-active {
-  color: $link-color;
+    color: $link-color;
 }
 
 .pagination-active:hover {
-  background-color: $pagination-button-color;
+    background-color: $pagination-button-color;
 }
